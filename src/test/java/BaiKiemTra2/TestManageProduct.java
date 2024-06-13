@@ -1,11 +1,15 @@
 package BaiKiemTra2;
 
 import common.BaseTest;
+import drivers.DriverManager;
 import helpers.CaptureHelpers;
 import listeners.TestListener;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -13,6 +17,8 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import logs.Log;
 
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 @Listeners(TestListener.class)
@@ -100,14 +106,11 @@ public class TestManageProduct extends BaseTest {
         System.out.println(getTotalStock);
         Assert.assertEquals(totalStock, getTotalStock, "FAILED. Total Stock not match.");
         sleep(2);
-
     }
 
     @AfterMethod
     public void takeScreenshot(ITestResult result) {
-        if (ITestResult.FAILURE == result.getStatus()) {
-            CaptureHelpers.captureScreenshot(result.getName());
-        }
+        CaptureHelpers.captureScreenshot(driver, result.getName());
 
         CaptureHelpers.stopRecord();
     }

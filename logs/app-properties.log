@@ -9,3 +9,37 @@
 [INFO] 13-06-2024 23:02:37 [main] Log - Chạy test case: verifyAddProduct
 [INFO] 13-06-2024 23:02:54 [main] Log - PASSED!! Test case verifyAddProduct
 [INFO] 13-06-2024 23:02:55 [main] Log - onFinish: Thu Jun 13 23:02:55 ICT 2024
+[INFO] 13-06-2024 23:06:36 [main] Log - onStart: Thu Jun 13 23:06:36 ICT 2024
+[INFO] 13-06-2024 23:06:38 [main] Log - Start test case addProduct
+[INFO] 13-06-2024 23:06:38 [main] Log - Chạy test case: addProduct
+[INFO] 13-06-2024 23:07:09 [main] Log - PASSED!! Test case addProduct
+[INFO] 13-06-2024 23:07:11 [main] Log - Start test case verifyAddProduct
+[INFO] 13-06-2024 23:07:11 [main] Log - Chạy test case: verifyAddProduct
+[INFO] 13-06-2024 23:07:27 [main] Log - PASSED!! Test case verifyAddProduct
+[INFO] 13-06-2024 23:07:27 [main] Log - onFinish: Thu Jun 13 23:07:27 ICT 2024
+[INFO] 13-06-2024 23:12:33 [main] Log - onStart: Thu Jun 13 23:12:32 ICT 2024
+[INFO] 13-06-2024 23:12:34 [main] Log - Start test case verifyAddProduct
+[INFO] 13-06-2024 23:12:35 [main] Log - Chạy test case: verifyAddProduct
+[INFO] 13-06-2024 23:12:50 [main] Log - FAILED!! Test case verifyAddProduct
+[ERROR] 13-06-2024 23:12:50 [main] Log - java.lang.NullPointerException
+[INFO] 13-06-2024 23:12:50 [main] Log - FAILED!! Test case verifyAddProduct
+[ERROR] 13-06-2024 23:12:50 [main] Log - java.lang.NullPointerException
+[INFO] 13-06-2024 23:12:50 [main] Log - onFinish: Thu Jun 13 23:12:50 ICT 2024
+[INFO] 13-06-2024 23:19:47 [main] Log - onStart: Thu Jun 13 23:19:47 ICT 2024
+[INFO] 13-06-2024 23:19:49 [main] Log - Start test case verifyAddProduct
+[INFO] 13-06-2024 23:19:49 [main] Log - Chạy test case: verifyAddProduct
+[INFO] 13-06-2024 23:20:04 [main] Log - PASSED!! Test case verifyAddProduct
+[INFO] 13-06-2024 23:20:04 [main] Log - onFinish: Thu Jun 13 23:20:04 ICT 2024
+[INFO] 13-06-2024 23:26:30 [main] Log - onStart: Thu Jun 13 23:26:29 ICT 2024
+[INFO] 13-06-2024 23:26:35 [main] Log - Start test case verifyAddProduct
+[INFO] 13-06-2024 23:26:35 [main] Log - Chạy test case: verifyAddProduct
+[INFO] 13-06-2024 23:26:49 [main] Log - PASSED!! Test case verifyAddProduct
+[INFO] 13-06-2024 23:26:50 [main] Log - onFinish: Thu Jun 13 23:26:50 ICT 2024
+[INFO] 13-06-2024 23:27:14 [main] Log - onStart: Thu Jun 13 23:27:14 ICT 2024
+[INFO] 13-06-2024 23:27:16 [main] Log - Start test case addProduct
+[INFO] 13-06-2024 23:27:16 [main] Log - Chạy test case: addProduct
+[INFO] 13-06-2024 23:27:46 [main] Log - PASSED!! Test case addProduct
+[INFO] 13-06-2024 23:27:48 [main] Log - Start test case verifyAddProduct
+[INFO] 13-06-2024 23:27:48 [main] Log - Chạy test case: verifyAddProduct
+[INFO] 13-06-2024 23:28:03 [main] Log - PASSED!! Test case verifyAddProduct
+[INFO] 13-06-2024 23:28:04 [main] Log - onFinish: Thu Jun 13 23:28:04 ICT 2024
