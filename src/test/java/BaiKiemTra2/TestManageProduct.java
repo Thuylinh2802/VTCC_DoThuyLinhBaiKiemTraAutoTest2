@@ -12,6 +12,7 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+import ultilities.Log;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,6 +30,7 @@ public class TestManageProduct extends BaseTest {
 
     @Test
     public void addProduct(Method method) throws Exception{
+        Log.info("Chạy test case: addProduct");
         CaptureHelpers.startRecord(method.getName());
 
         loginCRM();
@@ -78,6 +80,7 @@ public class TestManageProduct extends BaseTest {
 
     @Test
     public void verifyAddProduct(Method method) {
+        Log.info("Chạy test case: verifyAddProduct");
         CaptureHelpers.startRecord(method.getName());
 
         loginCRM();
