@@ -2,23 +2,20 @@ package BaiKiemTra2;
 
 import common.BaseTest;
 import helpers.CaptureHelpers;
+import listeners.TestListener;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.io.FileHandler;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import ultilities.Log;
+import logs.Log;
 
-import java.io.File;
-import java.io.IOException;
 import java.lang.reflect.Method;
-import java.sql.DriverManager;
 
+@Listeners(TestListener.class)
 public class TestManageProduct extends BaseTest {
 
     public void loginCRM() {
